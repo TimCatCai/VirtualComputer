@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f80e696-e2dc-43a3-be02-322ce7333afd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/memory/main/MemoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/memory/main/MemoryStorageHardware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operating_system/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addressing/AbstractAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addressing/AbstractAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/RealAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/virtual/RealAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/main/MemoryAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/main/MemoryAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/virtual/AssistantHardwareForVirtualMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/virtual/AssistantHardwareForVirtualMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/memory/virtual/VirtualAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/memory/virtual/VirtualAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/AbstractData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AbstractData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractAddress.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AbstractAddress.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/addressing/AbstractAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="116">
+              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="49" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,18 +74,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirtualAddress.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/memory/virtual/VirtualAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AssistantHardwareForVirtualMemory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/memory/virtual/AssistantHardwareForVirtualMemory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,22 +98,8 @@
       <file leaf-file-name="MemoryStorageHardware.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/memory/main/MemoryStorageHardware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="450">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemoryAddress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/memory/main/MemoryAddress.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -192,10 +157,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="575" />
-    <option name="y" value="40" />
-    <option name="width" value="940" />
-    <option name="height" value="1090" />
+    <option name="x" value="70" />
+    <option name="width" value="938" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,54 +177,6 @@
             <path>
               <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="addressing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="memory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="memory" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="memory" type="462c0819:PsiDirectoryNode" />
-              <item name="virtual" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerArchitecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerArchitecture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="operating_system" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,19 +248,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="55" y="-7" width="1488" height="878" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020979" side_tool="true" weight="0.32749325" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028818" side_tool="true" weight="0.67482996" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928476" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32928476" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4979021" visible="true" weight="0.32658568" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49711815" visible="true" weight="0.23751687" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22307692" />
@@ -361,6 +276,33 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928476" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928476" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22307692" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928476" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4979021" visible="true" weight="0.32658568" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020979" side_tool="true" weight="0.32749325" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -750,6 +692,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/main/MemoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/ProgramSoftware/JavaJDK/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="466" column="11" selection-start-line="466" selection-start-column="11" selection-end-line="466" selection-end-column="11" />
+          <folding>
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19161#19162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/virtual/RealAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/virtual/AssistantHardwareForVirtualMemory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memory/virtual/VirtualAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/memory/virtual/page/VirtualTableItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -775,34 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/main/MemoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/ProgramSoftware/JavaJDK/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="466" column="11" selection-start-line="466" selection-start-column="11" selection-end-line="466" selection-end-column="11" />
-          <folding>
-            <element signature="e#19103#19104#0" expanded="true" />
-            <element signature="e#19161#19162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/addressing/AbstractAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/memory/main/MemoryAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
@@ -817,32 +776,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/memory/main/MemoryStorageHardware.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="450">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/virtual/RealAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/addressing/AbstractAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/virtual/AssistantHardwareForVirtualMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/virtual/VirtualAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="116">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="49" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
