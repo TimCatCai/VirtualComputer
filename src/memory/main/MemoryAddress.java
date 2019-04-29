@@ -1,6 +1,8 @@
 package memory.main;
 import addressing.AbstractAddress;
 
+import java.math.BigInteger;
+
 /**
  * This represents the address of  memory.
  * @author  TimCatCai
@@ -15,30 +17,30 @@ public class MemoryAddress extends AbstractAddress {
      *  omits the value  of the memory, so initial it to empty string
      */
     public MemoryAddress(){
-        init("");
+        init(new BigInteger("0"));
     }
 
     /**
      *  assigns <code>memoryAddress</code> to the value field of the memory address
      * @param memoryAddress the value of the memory address
      */
-    public MemoryAddress(String memoryAddress) {
+    public MemoryAddress(BigInteger memoryAddress) {
         init(memoryAddress);
     }
 
     @Override
-    public String getAddress() {
-        return null;
+    public BigInteger getAddress() {
+        return this.addressComponents.get(MEMORY_ADDRESS_KEY);
     }
 
-    public void setMemoryAddress(String newValue){
+    public void setMemoryAddress(BigInteger newValue){
         resizeComponentValue(MEMORY_ADDRESS_KEY,newValue);
     }
     /**
-     * initials this by adding address to {@link AbstractAddress#addressCompontents} container.
+     * initials this by adding address to {@link AbstractAddress#addressComponents} container.
      * @param memoryAddress  the value of the memory address
      */
-    private void init(String memoryAddress) {
+    private void init(BigInteger memoryAddress) {
         addComponent(MEMORY_ADDRESS_KEY,memoryAddress);
     }
 

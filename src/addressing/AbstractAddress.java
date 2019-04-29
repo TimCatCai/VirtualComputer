@@ -1,5 +1,6 @@
 package addressing;
 
+import java.math.BigInteger;
 import java.util.HashMap;
 
 /**
@@ -25,35 +26,35 @@ public abstract class AbstractAddress {
      *      It is initialed to 8, because it is generally no more the 8 parts of the address.
      *  </p>
      */
-    protected HashMap<String, String> addressCompontents = new HashMap<>(8);
+    protected HashMap<String, BigInteger> addressComponents = new HashMap<>(8);
 
     /**
      * Gets the whole real address of the physical  operating_system address. The subclass should implement the order to
-     * connect all the component in {@link #addressCompontents}.
+     * connect all the component in {@link #addressComponents}.
      *
      * @return the whole real address connected by all content of  <code>addressContent</code> in specific order
-     * @see #addressCompontents
+     * @see #addressComponents
      */
-    public abstract String getAddress();
+    public abstract BigInteger getAddress();
 
     /**
      * @param key the name of the component of the address
      * @param value the real value of teh component of the address
      */
-    protected void addComponent(String key, String value) {
-        this.addressCompontents.put(key,value);
+    protected void addComponent(String key, BigInteger value) {
+        this.addressComponents.put(key,value);
     }
 
     /**
      * @param key
      * @return string of the component address
      */
-    protected String getComponent(String key) {
-        return addressCompontents.get(key);
+    protected BigInteger getComponent(String key) {
+        return addressComponents.get(key);
     }
 
-    protected void resizeComponentValue(String key,String newValue) {
-        this.addressCompontents.replace(key, newValue);
+    protected void resizeComponentValue(String key,BigInteger newValue) {
+        this.addressComponents.replace(key, newValue);
     }
 
 }

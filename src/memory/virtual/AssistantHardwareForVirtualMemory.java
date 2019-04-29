@@ -2,7 +2,6 @@ package memory.virtual;
 
 import addressing.AbstractAddress;
 import bus.AddressBusChainOfResponsibility;
-import memory.RealAddress;
 import memory.main.MemoryAddress;
 import memory.virtual.page.VirtualTableItem;
 import model.AbstractData;
