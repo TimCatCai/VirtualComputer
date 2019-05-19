@@ -9,6 +9,7 @@ import register.PageTableBaseAddressRegister;
 
 /**
  * This is the assistant hardware to support the function of virtual memory.
+ * This model is deprecated and operation system model will  operate the function of it.
  * It is made up with ? parts:
  * <ul>
  *     <li>loading module</li>
@@ -17,6 +18,8 @@ import register.PageTableBaseAddressRegister;
  * @author TimCatCai
  * @version 2019/04/27
  */
+
+@Deprecated
 public class AssistantHardwareForVirtualMemory {
     private AddressBusChainOfResponsibility addressBus;
     private PageTableBaseAddressRegister register;

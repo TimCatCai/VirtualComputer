@@ -1,10 +1,22 @@
 package memory.virtual.page;
 
+/**
+ * Each item in virtual page table.
+ * @author TimCatCai
+ * @version 2019/05/18
+ */
 public class VirtualTableItem {
     private String virtualPageNumber;
     private String realPageNumber;
     private boolean isIncluded;
     private String dishPageNumber;
+
+    public VirtualTableItem(String virtualPageNumber, String realPageNumber, boolean isIncluded, String dishPageNumber) {
+        this.virtualPageNumber = virtualPageNumber;
+        this.realPageNumber = realPageNumber;
+        this.isIncluded = isIncluded;
+        this.dishPageNumber = dishPageNumber;
+    }
 
     public String getVirtualPageNumber() {
         return virtualPageNumber;
